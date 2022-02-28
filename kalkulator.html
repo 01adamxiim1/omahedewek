@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8">
+		<title>Total Harga</title>
+		<link rel="stylesheet"href="style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-logo"> <img src ="Logoku.png" width="10%"> </div>
+		    <div class="header-list">
+							<ul>
+								<li> <a href="Index.html"> Beranda </li>
+								<li> <a href="Produk.html"> Katalog </a></li>
+								<li> <a href="kontak.html"> Kontak </a></li>
+								<li> <a href="kalkulator.html"> Pembayaran </a></li>
+							</ul>
+			</div>
+		</div>
+<div class="kalkulator">
+    <div class="contact-form">
+	<center>
+        <table border="0">
+            <tr>
+                <th colspan="2" style="font-size: 30px;">Form Penjualan</th>
+            </tr>
+            <tr>
+                <td> NAMA BARANG </td>
+                <td align="center"><input type="text" id="ipt_namabarang"></td>
+            </tr>
+            <tr>
+                <td> HARGA BARANG </td>
+                <td align="center"><input type="text" id="ipt_hargabarang"></td>
+            </tr>
+            <tr>
+                <td> JUMLAH BARANG </td>
+                <td align="center"><input type="text" id="ipt_jumlahbarang"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"  align="center"><div class="green"><button onclick="hitung()">HITUNG</button></div> </td>
+            </tr>
+
+            <tr>
+                <td >NAMA BARANG</td>
+                <td align="center"><input type="text" id="opt_namabarang" disabled></td>
+            </tr>
+            <tr>
+                <td>HARGA BARANG</td>
+                <td align="center"><input type="text" id="opt_hargabarang" disabled></td>
+            </tr>
+            <tr>
+                <td >JUMLAH BARANG</td>
+                <td align="center"><input type="text" id="opt_jumlahbarang" disabled></td>
+            </tr>
+            <tr>
+                <td>DISKON</td>
+                <td align="center"><input type="text" id="opt_diskon" disabled></td>
+            </tr>
+            <tr>
+                <td>HARGA DISKON</td>
+                <td align="center"><input type="text" id="opt_hargadiskon" disabled></td>
+            </tr>
+            <tr>
+                <td >TOTAL HARGA</td>
+                <td align="center"><input type="text" id="opt_totalharga" disabled></td>
+            </tr>
+			<tr>
+			  <td colspan="2" align="center"><div class="red"><button onclick="reset()">RESET</button></div></td>
+			 </tr>
+        </table>
+		</div>
+        <script>
+            
+      
+            var namabarang;
+            var hargabarang;
+            var jumlahbarang;
+            var diskon;
+            var totalharga;
+            var hargadiskon;
+            var totalbarang;
+            function hitung() {
+                
+                        namabarang = document.getElementById("ipt_namabarang").value;
+                        hargabarang = parseFloat(document.getElementById("ipt_hargabarang").value);
+                        jumlahbarang = parseFloat(document.getElementById("ipt_jumlahbarang").value);
+                        if (jumlahbarang >=5 ) {
+                        diskon = 10;
+                        hargadiskon = ( hargabarang * jumlahbarang * 20 / 100);
+                        totalharga = (hargabarang * jumlahbarang) - (hargabarang * jumlahbarang * diskon/100);
+                        }
+						else if(jumlahbarang= 1){
+						diskon=0;
+						hargadiskon = 0 ;
+                        totalharga = (hargabarang * jumlahbarang) - (hargabarang * jumlahbarang * diskon/100);
+						}
+                          document.getElementById("opt_namabarang").value = namabarang;
+                            document.getElementById("opt_hargabarang").value = hargabarang;
+                            document.getElementById("opt_jumlahbarang").value = jumlahbarang;
+                            document.getElementById("opt_hargadiskon").value = hargadiskon;
+                            document.getElementById("opt_diskon").value = diskon +"%";
+                            document.getElementById("opt_totalharga").value = totalharga;
+                }
+            function reset(){
+
+                document.getElementById("ipt_namabarang").value = "";
+                document.getElementById("ipt_hargabarang").value = "";
+                document.getElementById("ipt_jumlahbarang").value = "";
+                document.getElementById("opt_namabarang").value = "";
+                document.getElementById("opt_hargabarang").value = "";
+                document.getElementById("opt_jumlahbarang").value = "";
+                document.getElementById("opt_diskon").value ="";
+                document.getElementById("opt_hargadiskon").value = "";
+                document.getElementById("opt_totalharga").value = "";
+            }
+        </script>
+</div>
+	<div class="footer">
+			<div class="footer-logo"><img src ="Logoku.png" width="200" height="200"> </div>		
+				<div class="footer-list">
+					<ul>
+					<li> <h2>Main Menu</h2> </li>
+						<li> <a href="Index.html">Beranda</a></li>
+						<li> <a href="Produk.html">Katalog</a></li>
+						<li> <a href="kontak.html">Kontak</a></li>
+					</ul>
+				</div>
+
+                        <div class="footer-list2">
+                            <p>Terima Kasih</p>
+                            <p>Telah berkunjung di rumah Kami</p>
+                        </div>
+	</div>
+	</body>
+</html>

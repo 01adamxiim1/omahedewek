@@ -1,0 +1,308 @@
+.body {
+	color:white;
+	font-family:"avenir next";
+}
+
+li {
+	 font-family:"COPPERPLATE";
+	list-style:none;
+}
+
+a {
+	color:inherit;
+	text-decoration:none
+}
+
+p { font-family:"COPPERPLAT";
+}
+
+.active {
+	 background-color:white;
+	color:#7DC387;
+}
+	
+.header {
+	 background-image: linear-gradient(to bottom right, #849B5C, #BFFFC7);
+	  color: white;
+	  height: 100px;
+}
+
+.header-logo img {
+	float: left;
+	padding-bottom: 150px;
+	margin-bottom: px;
+}
+
+.header-list li {
+	  float: left;
+	  padding: 30px 30px;
+	  padding-top: 30px;
+	  padding-bottom: 20px;
+      margin-left: 100px;
+      margin-top: 10px;
+	  margin-bottom: 10px;
+}
+
+.header-list li:hover {
+	  float: left;
+	  padding: 30px 30px;
+	  padding-top: 30px;
+	  padding-bottom: 32px;
+      margin-left: 100px ;
+      margin-top: 10px;
+	  margin-bottom: 10px;
+	  background-color:white;
+	  color: black;
+	  cursor:pointer;
+	  border-radius: 5px;
+}
+
+.kalkulator {
+	  padding: 100px; 
+      background-color: white;
+	  margin: 5px 5px;
+	  height:100%;
+	  font-family:"arial";
+
+}
+
+.main {
+	  padding: 100px; 
+      background-color: white;
+	  margin: 5px 5px;
+	  height:100%;
+	  font-family:"arial";
+}
+
+.medsos {
+	 height:900px;
+	 width:700px;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+
+.medsos-icon {
+	float: left;
+	  margin-right: 70px;
+}
+
+.medsos-icon img {
+	height:100px;
+	width:100px;
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.medsos h2 {
+	font-family:"arial";
+}
+
+.medsos-icon p {
+	  font-size: 14px;
+	  text-align:center;
+}
+
+.contents {
+	height: 720px;
+	color: white;
+	padding-left: 25px;
+	margin-top: -95px; 
+	font-family:"COPPERPLATE";
+}
+
+.contents img {
+	display:block;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+}
+
+.contents-item {
+	background-color:#e8e8e8;
+	border-radius:10px;
+}
+
+.contents-item img {
+	height:200px;
+	width:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents-item p {
+	  font-size: 14px;
+	  text-align:center;
+	  margin-top: 5px;
+	  border:1px solid white;
+	  background-color:black;
+	  color:white
+}
+
+.contents-item :hover {
+	  cursor:pointer;
+}
+
+.contents-item h5:hover {
+	  font-size: 12px;
+	  text-align:center;
+	  color:green;
+	  cursor:pointer;
+}
+
+ .contents-item p:hover {
+	  font-size: 14px;
+	  text-align:center;
+	  margin-top: 5px;
+	  border:1px solid ;
+	  background-color: white;
+	  color:black;
+	  cursor:pointer;
+}
+
+.contents-item h5 {
+	font-size: 12px;
+	margin-top:5px;
+	text-align:center;
+	color:green;
+}
+
+.contents h1 {
+	color: black;
+	font-size:40;
+	font-family: COPPERPLATE;
+	text-align: center;
+	margin-top: -30px;
+	margin-bottom: 5px;
+	margin-right: 138px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+.contents h2 {
+	color:black;
+	font-size:32;
+	font-family: COPPERPLATE
+}
+
+
+.banner h2{ 
+	width:20%;
+	padding: 5px 10px;
+	text-align:center;
+	color:green;
+	border: 2px solid green;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:30px;
+}
+
+.banner h2:hover { 
+	width:20%;
+	padding: 5px 10px;
+	text-align:center;
+	color:white;
+	border: 2px solid white;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:30px;
+	background-color:green
+}
+
+.contents h4 {
+	color:black;
+	margin-left:450px;
+}
+ 
+.contents h3{
+	color:black;
+}
+
+.contents-item {
+	  float: left;
+	  margin-right: 70px;
+	  
+}
+
+.contact-form {
+	 height:900px;
+	 width:700px;
+}
+
+.deskripsi {
+	margin-top: -90px;
+	text-align: center;
+}
+
+.deskripsi p {
+	font-family: calisto;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+
+.deskripsi h3 {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 30%;
+	margin-left: 35%;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.deskripsi h3:hover {
+	background-color: green;
+	color: white;
+}
+
+.contact-form {
+		 height:100%;
+		margin-left: auto;
+		margin-right: auto
+		
+}
+
+ button { color:white;
+ text-align:center;
+}
+
+.footer {
+	margin-top: 70px;
+	font-family:"ARIAL";
+	background-image: linear-gradient(to bottom right, #849B5C, #BFFFC7);
+	height: 200px;
+	color: #fff;
+}
+
+.footer-logo {
+      font-size: 32px;
+      float: left;
+	  padding: 30px 30px;
+	  margin:20px 20px;
+}
+
+.footer-list {
+    float: right;
+	padding:30px 0;
+	font-family:"ARIAL";
+	margin-right: 20px;
+}
+
+.footer-list2 {
+	padding-top:70px ;
+    text-align: center;
+    color: white;
+	font-family: COPPERPLATE;
+}
+
+.footer-list li { 
+		text-align: center-left;
+		padding-bottom: auto;
+		margin-top: 10px;
+	   font-family:"Arial";
+}

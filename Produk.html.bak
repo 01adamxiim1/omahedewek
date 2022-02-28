@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8">
+		<title>Katalog</title>
+		<link rel="stylesheet"href="stylesheet.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-logo"> <img src ="https://drive.google.com/uc?export=view&id=1PxoYTKdU3fVZXduFQZHWTj56H3_q3YSg" width="50" height="50"> </div>
+		<div class="header-list">
+							<ul>
+								<li> <a href="index.html">Beranda</a></li>
+								<li  class="active"> <a href="Produk.html">Katalog</a></li>
+								<li> <a href="kontak.html">Kontak</a></li>
+								<li> <a href="kalkulator.html"> Pembayaran </a></li>
+							</ul>
+		</div>
+		</div>
+		<div class="main">
+				<div class="contents">
+									<h2> T-shirt</h2>
+							    <div class="contents-item">
+								<a href="kalkulator.html">
+								<img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>T-shirt DA logo</h5>
+								 <p>RP.100.000</p>
+								  </a>
+								 </div>
+								<div class="contents-item">
+								<a href="kalkulator.html">
+								 <img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>T-shirt DA  x shingeki no kyojin</h5>
+								 <p>RP.100.000</p>
+								 </a>
+								 </div>
+								 <div class="contents-item">
+								 <a href="kalkulator.html">
+								<img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>T-shirt DA 12 multimedia 1</h5>
+								 <p>RP.100.000</p></a>
+								 </div>
+								 <div class="contents-item">
+								 <a href="kalkulator.html">
+								 <img src ="https://drive.google.com/uc?export=view&id=" > 
+								 	 <h5>T-shirt DA gambar pemandangan</h5>
+								 <p>RP.100.000</p></a>
+								 </div>
+								 	<h2> Hoodie</h2>
+							    <div class="contents-item">
+								<a href="kalkulator.html">
+								<img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>Hoodie DA gambar pemandangan</h5>
+								 <p>RP.350.000</p></a>
+								 </div>
+								<div class="contents-item">
+								<a href="kalkulator.html">
+								 <img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>Hoodie logo DA</h5>
+								 <p>RP.350.000</p></a>
+								 </div>
+								 <div class="contents-item">
+								 <a href="kalkulator.html">
+								<img src ="https://drive.google.com/uc?export=view&id=" > 
+								 <h5>Hoodie DA 12 multimedia 1</h5>
+								 <p>RP.350.000</p></a>
+								 </div>
+								 <div class="contents-item">
+								 <a href="kalkulator.html">
+								 <img src ="hoodie4.png" > 
+								 	 <h5>Hoodie DA gambar pemandangan</h5>
+								 <p>RP.350.000</p></a>
+								 </div>
+				</div>				 
+				</div>
+						<div class="footer">
+	
+						  <div class="footer-logo"><img src ="https://drive.google.com/uc?export=view&id=" width="100" height="100"> </div>
+							
+							 <div class="footer-list">
+								 <ul>
+								 <li> <h2>Main Menu</h2> </li>
+									<li> <a href="index.html">Beranda</a></li>
+									<li> <a href="Produk.html">Katalog</a></li>
+									<li> <a href="kontak.html">Kontak</a></li>
+								 </ul>
+							</div>
+							<div class="footer-list2">
+								<p>Terima Kasih<br>
+							telah berkunjung ke rumah Kami</p></div>
+			 
+		 
+						</div>
+		</body>
+</html>
